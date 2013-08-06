@@ -14,7 +14,7 @@ The main point in this step is to ensure we have the most up to date, official w
 
 The "authority page" is the official website for the business. One way to look at this is: _If you wanted a friend to meet you at the business location described below, would you feel confident emailing your friend the linked website as their only source of finding you?_
 
-For each record, verify that it's website value is the best, official "authority page" for that specific business location. If the record has not website value, or the website does not appear to be an acceptable authority page, a best effort should be made to find the best authority page and correct the record's website to be the URL for that page.
+For each record, verify that its website value is the best, official "authority page" for that specific business location. If the record has not website value, or the website does not appear to be an acceptable authority page, a best effort should be made to find the best authority page and correct the record's website to be the URL for that page.
 
 To confirm the authority page it may be necessary to visit linked pages such as "Contact Us", "About Us", etc., to verify that the contact details at least loosely match our original business record.
 
@@ -99,14 +99,14 @@ If you reach an automated message on the first attempt, please try at least one 
 If the person asks you questions about who you are, why you're calling or what you're doing with the data, you can say:
 _"I'm helping Factual verify they have the correct data for this business. This data will be used to correct Factual's database of businesses."_
 If they want to know who Factual is, you can tell them, _"Factual helps people find relevant businesses for mobile and web users searching for particular businesses."_
-If the person wants to keep asking more questions, or if they seem annoyed at any time, you are free to politely excuse yourself and mark the record as "Unwilling".
+If the person wants to keep asking more questions, or if they seem annoyed at any time, you are free to politely excuse yourself and mark the record appropriately as described below.
 
 ### Outcomes
 
 Each record run through Phone Verify should be marked with one of these summary outcomes:
 * Verified (a business representative was reached, and at least one attribute of the business was verified)
 * Voicemail (every attempt resulted in an automated voicemail message)
-* Unwilling (a person was reached, but they were not cooperative)
+* Unwilling (a person was reached but they were not willing to verify at least one attribute)
 * Disconnected (telephone is not in service)
-* Wrong Number (telephone number is not for this business)
+* Wrong Number (telephone number is not for this business, and a correct number could not be found)
 * Other (please describe in notes)
