@@ -1,7 +1,13 @@
 Improve Business Records
 ========================
 
-## Verify Website
+## Overview
+
+This is a process that starts with "good" data and makes the data better. Each record represents a business. We want to improve the accuracy and completeness of the business data.
+
+There are two main steps:
+
+## Step 1: Verify Website
 
 Check that the record's website is the best available website for the business. One way to consider this: _If you wanted a friend to meet you at the business location described below, would you feel confident emailing your friend the linked website as their only source of finding you?_
 
@@ -47,7 +53,7 @@ At the end of this step, "website-outcome" should contain one of:
 * a new URL: website is blank or is not the best website for the business. the new website URL you found is better
 * blank: website is blank or is not the best website for the business, but you could not find a good website
 
-## Verify Attributes Using the Website
+## Step 2: Verify Attributes Using the Website
 
 This step is for every record that already had a good website, or you were able to find a good website. For each of these records, verify the name, address, locality, region, postcode and tel of the business using the website. The main goal here is to use the website to ensure the completeness and accuracy of the business record.
 
@@ -79,3 +85,11 @@ For any records that do not have a good website ("website-outcome" was left blan
 For each business record, the "website-outcome" field should contain either the word "verified", or a corrected website link, or should be left blank because you could not find a good website for the business.
 
 Each of the other -outcome fields should contain either the word "verified", or a corrected value, or should be left blank because you could not verify them from the website.
+
+## Example Work
+
+website|website-outcome|name|name-outcome|address|address-outcome|locality|locality-outcome|region|region-outcome|postcode|postcode-outcome|tel|tel-outcome
+--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
+http://www.candcdancecompany.com/	| verified | C & C Dance Co | verified | 4891 Telsa Drive | 4891 Telsa Drive, Suites J - L | Bowie | verified | MD | verified | 20700 | 20715 | (301) 464-4300 | verified
+
+For this record, the website was the correct website and was therefore marked "verified". The other fields were correct except for the address and postcode. The address was corrected to include the suite letters, and the postcode was corrected to be 20715.
