@@ -74,9 +74,9 @@ When a value is blank or incorrect and you can find the correct value on the web
 
 When a value is blank or incorrect but you cannot find the correct value on the website (or there is no website), leave the -outcome field blank for that field. For example, if the "tel" field is blank and the website does not have the telephone, you should leave the "tel-outcome" field blank.
 
-## Mutlipe telephones
+## Multiple telephones
 
-If the website has mutliple telephones for the business, select the telephone that appears most likely to reach a real person who works at the business. Do not use fax numbers. Only use a toll-free number value if there's not a non-toll-free number showing.
+If the website has multiple telephones for the business, select the telephone that appears most likely to reach a real person who works at the business. Do not use fax numbers. Only use a toll-free number value if there's not a non-toll-free number showing.
 
 ### Outcomes
 
