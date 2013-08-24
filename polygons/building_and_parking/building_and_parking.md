@@ -22,7 +22,9 @@ Also mark the approximate "center" of the primary business building.
 The KML file should include two Placemarks. One should contain your Polygon, including the set of coordinates for the polygon.
 The other will contain a Point that represents your center marker, including a small set of coordinates for the marker.
 
-## Example
+[Example KML file](https://raw.github.com/Factual/public-works/master/polygons/building_and_parking/examples/stores/66f9c859-5532-4ee1-85c2-fbbb3b88692d.kml)
+
+## Example Polygon Drawing
 
 ![An example Polygon drawing](https://github.com/Factual/public-works/raw/master/polygons/building_and_parking/examples/stores/66f9c859-5532-4ee1-85c2-fbbb3b88692d.png)
 
@@ -37,8 +39,6 @@ The above was drawn for this record:
   "latitude":34.057509,
   "longitude":-118.424559}
 ```
-
-[Example KML file](https://raw.github.com/Factual/public-works/master/polygons/building_and_parking/examples/stores/66f9c859-5532-4ee1-85c2-fbbb3b88692d.kml)
 
 ## Checking your KML Files
 
