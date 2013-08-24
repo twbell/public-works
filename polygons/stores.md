@@ -3,7 +3,7 @@ Draw Polygons for Business and Parking
 
 ## Overview
 
-Given a business record, provide the polygon surrounding the business location and its front parking lot. Also mark the approximate center of the business buidling.
+Given a business location record, provide the polygon surrounding the business location and its front parking lot. Also mark the approximate center of the business buidling.
 
 ## Instructions
 
@@ -21,12 +21,12 @@ This is an example business record, representing a Walgreens drug store in Centu
 
 ```json
 {"factual_id":"66f9c859-5532-4ee1-85c2-fbbb3b88692d",
-  "name":"Walgreens",
-  "address":"10407 Santa Monica Blvd",
-  "locality":"Los Angeles",
-  "region":"CA",
-  "latitude":34.057509,
-  "longitude":-118.424559}
+ "name":"Walgreens",
+ "address":"10407 Santa Monica Blvd",
+ "locality":"Los Angeles",
+ "region":"CA",
+ "latitude":34.057509,
+ "longitude":-118.424559}
 ```
 
 See the example screenshot below to see an example of a polygon for this business.
@@ -40,7 +40,7 @@ It should be named __[FACTUAL_ID].kml__, where FACTUAL_ID is the **factual_id** 
 
 The contents of the KML file should include two Placemarks: One that contains your Polygon, including the set of coordinates for the polygon, and one that contains a Point that represents your center marker, including a small set of coordinates for the marker.
 
-This [example KML file](https://raw.github.com/Factual/public-works/master/polygons/building_and_parking/examples/stores/66f9c859-5532-4ee1-85c2-fbbb3b88692d.kml)
+This [example KML file](https://raw.github.com/Factual/public-works/master/polygons/examples/stores/66f9c859-5532-4ee1-85c2-fbbb3b88692d.kml)
 was drawn for the example business record above.
 
 ## Checking your KML Files
@@ -55,4 +55,4 @@ http://www.askdavetaylor.com/how_to_import_xml_kml_data_file_google_maps.html
 If you're able to import and view your KML files in this way, you can be reasonably certain that we can as well.
 
 Here is a screenshot taken after importing the KML file from the example above:
-![Example Polygon drawing](https://github.com/Factual/public-works/raw/master/polygons/building_and_parking/examples/stores/66f9c859-5532-4ee1-85c2-fbbb3b88692d.png)
+![Example Polygon drawing](https://github.com/Factual/public-works/raw/master/polygons/examples/stores/66f9c859-5532-4ee1-85c2-fbbb3b88692d.png)
