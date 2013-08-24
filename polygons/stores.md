@@ -1,5 +1,5 @@
-Draw Polygons for Business and Parking
-======================================
+Draw Business Polygon
+=====================
 
 ## Overview
 
