@@ -15,7 +15,7 @@ Also mark the approximate "center" of the primary business building.
   from the outer walls as possible. Where would you stand? Use your mapping tool to set a marker on this spot.
 * Once you are satisfied with your polygon and center marker, export your work as a KML file.
 * The export should include the polygon and the center marker for the business, but no other polygons or markers.
-* The export should be named [FACTUAL_ID].kml, where FACTUAL_ID is the "factual_id" from the business record. Example file name: `21234482-efe6-42e3-902b-cb88378c5ea9.kml`
+* The export should be named [FACTUAL_ID].kml, where FACTUAL_ID is the "factual_id" from the business record. Example file name: `66f9c859-5532-4ee1-85c2-fbbb3b88692d.kml`
 
 ## KML File Format
 
