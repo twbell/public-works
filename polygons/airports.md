@@ -10,7 +10,8 @@ Also mark the approximate center of the main airport terminal structure.
 
 * Lookup the given airport record in your mapping tool.
 * Draw a polygon around the airport's terminals, runways, and parking.
-* This polygon should represent the area that we'd reasonably consider to be "at" the airport. That is, once a person were to enter the polygon, we'd consider them to most likely be visiting the airport.
+* Be sure to NOT zoom in so close that your mapping tool stops providing a straight-down view. It's important for accuracy that you have a straight-down view while drawing the polygon.
+* Your polygon should represent the area that we'd reasonably consider to be "at" the airport. That is, once a person were to enter the polygon, we'd consider them to most likely be visiting the airport.
 * Please use your overall best human judgment when identifying airport parking lot and runways.
 * Mark the approximate "center" of the main airport terminal structure.
 * Once you are satisfied with your polygon and center marker, export your work as a KML file and send it to us.
