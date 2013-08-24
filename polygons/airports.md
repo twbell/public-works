@@ -62,5 +62,5 @@ Here is a screenshot taken after importing the KML file from the example above:
 **Q:** What should I mark as the center if the airport has multiple terminals?<br>
 **A:** Please mark the center of the terminal which is most likely the airport's primary terminal.
 
-**Q:** How should I handle areas that look like airport expansions that were under constructoin at the time the satellite image was taken?<br>
+**Q:** How should I handle areas that look like airport expansions that were under construction at the time the satellite image was taken?<br>
 **A:** Please include those areas. Your polygon should include areas that you're reasonably confident are now, or will soon be, a working part of the airport. 
