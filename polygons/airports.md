@@ -17,7 +17,7 @@ Also mark the approximate center of the main airport terminal structure.
 
 ### Example Airport Record
 
-This is an example business record, representing a Walgreens drug store in Century City, CA:
+This is an example business record, representing an airport in Bristol, Great Britain:
 
 ```json
 {"factual_id":"f51030e5-f824-44bf-96d1-ae0f7b1c26cc",
