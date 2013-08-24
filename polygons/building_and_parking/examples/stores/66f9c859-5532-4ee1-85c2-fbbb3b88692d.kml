@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Untitled map</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Untitled layer</name>
+			<Placemark>
+				<styleUrl>#poly-000000-4-76</styleUrl>
+				<name></name>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>0</tessellate>
+							<coordinates>-118.42481598258018,34.058167132225606,0.0 -118.42511236667633,34.057953437613065,0.0 -118.42487499117851,34.0576501788925,0.0 -118.42492863535881,34.05760775401089,0.0 -118.4248897433281,34.057577899451836,0.0 -118.42499703168869,34.05749462088944,0.0 -118.4248012304306,34.05728720977458,0.0 -118.4243680536747,34.05759046979378,0.0 -118.42481598258018,34.058167132225606,0.0</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-FF8277</styleUrl>
+				<name></name>
+				<Point>
+					<coordinates>-118.42468321323395,34.05761089659545,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='poly-000000-4-76'>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C000000</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='icon-503-FF8277'>
+			<IconStyle>
+				<color>ff7782FF</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+	</Document>
+</kml>
