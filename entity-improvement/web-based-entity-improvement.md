@@ -9,22 +9,26 @@ This process starts with business records that have "good" data. We want to impr
 
 Check that the record's website is the best available website for the business.
 
-_If you wanted a friend to meet you at the business location described below, would you feel confident emailing your friend the linked website as their only source of finding you?_
+_If you wanted a friend to meet you at the business location, would you feel confident emailing your friend the linked website as their only source of finding you?_
 
 To confirm that the website is valid it may be necessary to visit linked pages such as "Contact Us", "About Us", etc., to verify that the contact details match the original business record. If the information does not appear to be the same business, the website should be considered incorrect.
 
-If the website is incorrect, or the record has no website value, use web research to try to find the best website for the business and put that URL in the "website-outcome" field.
+If the website value is already correct, fill "website-outcome" with the word "verified".
 
-If the website value is already correct, fill "website-outcome" with the word "verified". If the website is not correct and you find the correct one, put that website URL in "website-outcome".
+If the website is incorrect, or the record has no website value, use web research to try to find the best website for the business.
+If you find a good website for the business, copy that link into "website-outcome".
+If you do not find a good website, leave "website-outcome" blank, and we'll have to give up on verifying data for this business.
 
-If the website is incorrect and you're not able to find the correct website from internet research, leave "website-outcome" blank.
+### Corporate Websites
 
-### Chains
+Be aware of corporate websites and other such umbrella companies.
 
-Be aware of chains and umbrella companies. If the website is the homepage for an organization that has multiple locations, then the website is probably not corerct (because it's not for the specific business location).
-The only way the website would be correct in this case is if the business record appears to be the home office of the organizaiton as shown on the website.
+If the website is the homepage for a corporation or other umbrella company (such as McDonald's corporate homepage),
+the website is probably incorrect for the business record. This is because the business record is most likely a
+specific location (such as a McDonald's restaurant). 
 
-For franchise locations, branch locations and the like, we would like a website that is clearly focused on the business represented by the business record. This can often be accomplished by using the corporate website to do a "locations search" and copying the link from the results for the correct specific location.
+For franchise locations, branch locations and the like, we want the website that specifically represents the business record.
+This can often be achieved by using the corporate website to do a "locations search" for the specific branch location.
 
 Sometimes it is not possible to find a website that represents a specific location, in which case the "website-outcome" field should be left blank.
 
@@ -55,9 +59,11 @@ At the end of this step, "website-outcome" should contain one of:
 
 ## Step 2: Verify Attributes Using the Website
 
-Use each business's correct website to verify the correctness of the other business data (name, address, locality, region, postcode and tel).
+Use each business's correct website to verify the correctness of the other business data 
+(name, address, locality, region, postcode and tel).
 
-This step should be done for each business record where a good website was verified or corrected in the previous step. (Do not do this step for business records that have incorrect websites, that is, website-outcome was left blank.)
+(This step is for ONLY the business records where your verified the website or corrected the website.
+So **DO NOT** do this step for business records where you left "website-outcome" blank.)
 
 For each of the following attributes in the busines record, verify the value against the value shown on the website. To be correct, the value in the business record should be the same as that on the website and meet the rules for that field:
 
