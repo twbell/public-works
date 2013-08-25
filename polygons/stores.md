@@ -9,8 +9,9 @@ Given a business location record, provide the polygon surrounding the business l
 
 * Lookup the given business record in your mapping tool.
 * Draw a polygon around the business's physical building and front parking lot.
-* Be sure to NOT zoom in so close that your mapping tool stops providing a straight-down view. It's important for accuracy that you have a straight-down view while drawing the polygon.
+* Do not zoom in so close that your mapping tool stops providing a straight-down view. It's important for accuracy that you have a straight-down view while drawing the polygon.
 * Your polygon should represent the area that we'd reasonably consider to be "at" the airport. That is, once a person were to enter the polygon, we'd consider them to most likely be visiting the airport.
+* Draw only one polygon. Please use your best human judgement so that your one polygon surrounds the airport area with reasonble accuracy.
 * Please use your overall best human judgment when identifying the front parking lot.
 * Mark the approximate "center" of the business's building. Imagine you're inside the building and you want to stay as far away
   from the outer walls as possible. Where would you stand? Use your mapping tool to set a marker on this spot.
