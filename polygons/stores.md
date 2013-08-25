@@ -1,7 +1,7 @@
 Draw Business Polygon
 =====================
 
-## Overviewst
+## Overview
 
 Given a business location record, provide the polygon surrounding the business location and its front parking lot. Also mark the approximate center of the business buidling.
 
