@@ -33,11 +33,11 @@ This is an example business record, representing a Walgreens drug store in Centu
  "longitude":-118.424559}
 ```
 
-See the example screenshot below to see an example of a polygon for this business.
+See the example screenshot below to see an example of polygons drawn for this business.
 
 ### KML File Requirements
 
-Your KML file should include the polygon and the center marker for the business, but no other polygons or markers.
+Your KML file should include the polygons and the center marker for the business, but no other polygons or markers.
 
 It should be named __[FACTUAL_ID].kml__, where FACTUAL_ID is the **factual_id** from the business record. Here is an example file name:
 `66f9c859-5532-4ee1-85c2-fbbb3b88692d.kml`.
@@ -55,6 +55,8 @@ The Placemark for the front parking lot should contain a name, with the value se
 <Placemark>
   <name>parking</name>
 ```
+
+This should be included for you automatically when you export your work as a KML file. You should never edit a KML file by hand.
 
 For a detailed illustration, see this [example KML file](https://raw.github.com/Factual/public-works/master/polygons/examples/stores-components/66f9c859-5532-4ee1-85c2-fbbb3b88692d.kml).
 It was created for the example business record above.
