@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Untitled map</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Untitled layer</name>
+			<Placemark>
+				<styleUrl>#poly-000000-4-76</styleUrl>
+				<name>parking</name>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>0</tessellate>
+							<coordinates>-118.42460006475449,34.05789058615388,0.0 -118.42482134699821,34.058179702480146,0.0 -118.42513516545296,34.057928297035,0.0 -118.4249272942543,34.057675319553084,0.0 -118.42460006475449,34.05789058615388,0.0</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#poly-000000-4-76</styleUrl>
+				<name>building</name>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>0</tessellate>
+							<coordinates>-118.42503726482391,34.05752761806545,0.0 -118.42479318380356,34.05728092458137,0.0 -118.42436671257019,34.057592041086394,0.0 -118.42457726597786,34.057846590104745,0.0 -118.42503726482391,34.05752761806545,0.0</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-FF8277</styleUrl>
+				<name>Point 3</name>
+				<Point>
+					<coordinates>-118.42466711997986,34.057596754964045,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='poly-000000-4-76'>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C000000</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='icon-503-FF8277'>
+			<IconStyle>
+				<color>ff7782FF</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+	</Document>
+</kml>
