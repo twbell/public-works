@@ -3,19 +3,21 @@ Draw Polygons for Business Areas
 
 ## Overview
 
-Given a business location record, draw polygons indicating the business's building(s) and front parking lot. Also mark the approximate center of the business's primary buidling.
+Given a business location record, draw polygons indicating the business's buildings and parking lots. Also mark the approximate center of the business's primary buidling.
+
+The main goal is to identify the areas that are "at" the business. Meaning, if a person is inside one of the polygons, we can reasonably consider them to be visiting this business.
 
 ## Instructions
 
 * Lookup the given business record in your mapping tool.
 * Draw polygons around all business buildings. Name each building polygon "building".
-* Draw a polygon around the business's front parking lot. Name the polygon "parking".
+* Draw a polygon around the business's parking lots. Name the polygons "parking". It's fine to draw one polygon around all parking lot areas if they are connected.
 * Your polygons should represent the areas that we'd reasonably consider to be "at" the business. That is, if a person enters one of the polygons,
 we'd consider them to likely be visiting the business.
 * Mark the approximate "center" of the business's primary building. Imagine you're inside the building and you want to stay as far away
   from the outer walls as possible. Where would you stand? Use your mapping tool to set a marker on this spot.
 * Do not zoom in so close that your mapping tool stops providing a straight-down view. It's important for accuracy that you have a straight-down view while drawing the polygon.
-* Please use your best human judgment when identifying business building(s) and the front parking lot.
+* Please use your best human judgment when identifying business buildings and parking lots.
 * Once you are satisfied with your polygons and center marker, export your work as a KML file and send it to us.
 * Please create exactly 1 KML file per business.
 
@@ -60,6 +62,8 @@ This should be included for you automatically when you export your work as a KML
 
 For a detailed illustration, see this [example KML file](https://raw.github.com/Factual/public-works/master/polygons/examples/stores-components/66f9c859-5532-4ee1-85c2-fbbb3b88692d.kml).
 It was created for the example business record above.
+
+Please do not send us files of any other format, such as KMZ. We only want KML files.
 
 ## Checking your KML Files
 
