@@ -85,7 +85,7 @@ http://www.askdavetaylor.com/how_to_import_xml_kml_data_file_google_maps.html
 If you're able to import and view your KML files in this way, you can be reasonably certain that we can as well.
 
 Here is a screenshot taken after importing the KML file from the example above:
-![Example Polygon drawing](https://github.com/Factual/public-works/raw/master/polygons/examples/airports/f51030e5-f824-44bf-96d1-ae0f7b1c26cc.png)
+![Example Polygon drawing](https://github.com/Factual/public-works/raw/master/polygons/examples/airports-components/f51030e5-f824-44bf-96d1-ae0f7b1c26cc.png)
 
 ## FAQ
 
