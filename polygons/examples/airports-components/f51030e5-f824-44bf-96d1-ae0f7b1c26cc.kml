@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Untitled map</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Untitled layer</name>
+			<Placemark>
+				<styleUrl>#poly-000000-4-76</styleUrl>
+				<name>parking</name>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>0</tessellate>
+							<coordinates>-2.71512508392334,51.3872492891889,0.0 -2.713172435760498,51.38700825531624,0.0 -2.711026668548584,51.387316242817114,0.0 -2.7020788192749023,51.385923587177615,0.0 -2.7013707160949707,51.38657974751884,0.0 -2.705104351043701,51.38711538163862,0.0 -2.7049970626831055,51.387664400104605,0.0 -2.713022232055664,51.389110563559534,0.0 -2.713301181793213,51.38854817209146,0.0 -2.7149319648742676,51.388628514152956,0.0 -2.71512508392334,51.3872492891889,0.0</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#poly-000000-4-76</styleUrl>
+				<name>parking</name>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>0</tessellate>
+							<coordinates>-2.7044177055358887,51.38455767220844,0.0 -2.702465057373047,51.38463802127636,0.0 -2.7022504806518555,51.385468286717824,0.0 -2.703731060028076,51.38597715163979,0.0 -2.7044177055358887,51.38455767220844,0.0</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-FF8277</styleUrl>
+				<name>Point 4</name>
+				<Point>
+					<coordinates>-2.711005210876465,51.386325319115564,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#poly-000000-4-76</styleUrl>
+				<name>airport</name>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>0</tessellate>
+							<coordinates>-2.7338790893554688,51.383968441399745,0.0 -2.7338361740112305,51.38174536595509,0.0 -2.714695930480957,51.38238819404891,0.0 -2.7108335494995117,51.37874538213597,0.0 -2.7092885971069336,51.37976325582816,0.0 -2.707400321960449,51.382709604710065,0.0 -2.704010009765625,51.38284352515269,0.0 -2.708001136779785,51.38672704752679,0.0 -2.711048126220703,51.38696808288068,0.0 -2.718687057495117,51.38541472166004,0.0 -2.718687057495117,51.38461123826939,0.0 -2.7338790893554688,51.383968441399745,0.0</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#poly-000000-4-76</styleUrl>
+				<name>parking</name>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>0</tessellate>
+							<coordinates>-2.712421417236328,51.377406040160466,0.0 -2.708752155303955,51.376696173024385,0.0 -2.707529067993164,51.37842394363582,0.0 -2.7081727981567383,51.37862484296293,0.0 -2.708001136779785,51.378932886885295,0.0 -2.7107906341552734,51.37865162947327,0.0 -2.7135157585144043,51.38115609893754,0.0 -2.7149105072021484,51.380446289956886,0.0 -2.7112841606140137,51.3777810598638,0.0 -2.7122068405151367,51.377901601258806,0.0 -2.712421417236328,51.377406040160466,0.0</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Style id='poly-000000-4-76'>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C000000</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='icon-503-FF8277'>
+			<IconStyle>
+				<color>ff7782FF</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+	</Document>
+</kml>

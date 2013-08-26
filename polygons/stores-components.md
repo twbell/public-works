@@ -11,7 +11,7 @@ The main goal is to identify the areas that are "at" the business. Meaning, if a
 
 * Lookup the given business record in your mapping tool.
 * Draw polygons around all business buildings. Name each building polygon "building".
-* Draw a polygon around the business's parking lots. Name the polygons "parking". It's fine to draw one polygon around all parking lot areas if they are connected.
+* Draw one ore more polygons around the business's parking lots. Name the polygons "parking". It's fine to draw one polygon around all parking lot areas if they are connected.
 * Your polygons should represent the areas that we'd reasonably consider to be "at" the business. That is, if a person enters one of the polygons,
 we'd consider them to likely be visiting the business.
 * Mark the approximate "center" of the business's primary building. Imagine you're inside the building and you want to stay as far away
@@ -39,26 +39,29 @@ See the example screenshot below to see an example of polygons drawn for this bu
 
 ### KML File Requirements
 
-Your KML file should include the polygons and the center marker for the business, but no other polygons or markers.
+Your KML file should include all the polygons you drew for the business, plus the center marker.
+Your KML file should not contain any other polygons or markers.
 
 It should be named __[FACTUAL_ID].kml__, where FACTUAL_ID is the **factual_id** from the business record. Here is an example file name:
 `66f9c859-5532-4ee1-85c2-fbbb3b88692d.kml`.
 
-The contents of the KML file should include multiple Placemarks: One for each polygon, and one that contains a Point that represents your center marker.
+The contents of the KML file should include multiple Placemarks: One for each polygon, and
+one that contains a Point that represents your center marker.
 
-The Placemarks for the business building(s) should contain a name with the value set to "building". E.g.:
+The Placemarks for the business buildings should contain a name with the value set to "building". E.g.:
 ```xml
 <Placemark>
   <name>building</name>
 ```
 
-The Placemark for the front parking lot should contain a name, with the value set to "parking". E.g.:
+The Placemarks for the parking lots should each contain a name, with the value set to "parking". E.g.:
 ```xml
 <Placemark>
   <name>parking</name>
 ```
 
-This should be included for you automatically when you export your work as a KML file. You should never edit a KML file by hand.
+This should be included for you automatically when you export your work as a KML file.
+You should never edit a KML file by hand.
 
 For a detailed illustration, see this [example KML file](https://raw.github.com/Factual/public-works/master/polygons/examples/stores-components/66f9c859-5532-4ee1-85c2-fbbb3b88692d.kml).
 It was created for the example business record above.
